@@ -1,0 +1,16 @@
+﻿Build started 3/22/2016 4:33:32 PM.
+     1>Project "D:\code\DrawMeshErrors\RenderMesh\RenderMesh.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\code\DrawMeshErrors\RenderMesh\x64\Release\RenderMesh.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\code\DrawMeshErrors\RenderMesh\x64\Release\RenderMesh.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\code\DrawMeshErrors\RenderMesh\x64\Release\RenderMesh.lib" /MACHINE:X64 x64\Release\rply.obj
+         x64\Release\Main.obj
+         x64\Release\MeshRenderer.obj
+         x64\Release\ParsePLY.obj
+         Generating code
+     1>d:\code\drawmesherrors\rply-1.1.4\rply.c(379): warning C4700: uninitialized local variable 'ply' used
+         Finished generating code
+         RenderMesh.vcxproj -> D:\code\DrawMeshErrors\RenderMesh\x64\Release\RenderMesh.exe
+     1>Done Building Project "D:\code\DrawMeshErrors\RenderMesh\RenderMesh.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.38

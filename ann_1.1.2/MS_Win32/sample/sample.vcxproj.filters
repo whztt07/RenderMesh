@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{eeb43628-1320-47a0-85d6-a533a4b94b66}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7ab6b5b9-9342-4702-920c-0877e3dcd32f}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Test Data">
+      <UniqueIdentifier>{a2b5e5df-72a6-4b11-9c3b-c9ed352f9f41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{60c7711c-84fb-4fd6-a2e9-650119678f43}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\sample\ann_sample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="data_pts">
+      <Filter>Test Data</Filter>
+    </CustomBuild>
+    <CustomBuild Include="query_pts">
+      <Filter>Test Data</Filter>
+    </CustomBuild>
+    <CustomBuild Include="sample.out">
+      <Filter>Test Data</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
